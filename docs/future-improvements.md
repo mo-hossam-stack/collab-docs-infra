@@ -10,7 +10,7 @@
 ### Backend (API & Data)
 | Feature | Priority | Dependencies | Notes |
 | :--- | :--- | :--- | :--- |
-| **Real-time Collaboration** | **High** | Redis, Django Channels | The "killer feature" for a Docs clone. Needs OT/CRDT logic. |
+| **Real-time Collaboration** | **High** | Redis, Django Channels | The "killer feature" for a Docs collaberation. Needs OT/CRDT logic. |
 | **Full Text Search** | Medium | Postgres `tsvector` | Search across document content, not just titles. |
 | **Background Tasks** | Medium | Celery/Dramatiq | Move AI processing and email sending out of the request loop. |
 | **S3 Storage** | Low | AWS S3/Cloudflare R2 | Move user uploads (images in docs) off local disk to object storage. |
@@ -26,7 +26,7 @@
 ### Infrastructure & DevOps
 | Feature | Priority | Dependencies | Notes |
 | :--- | :--- | :--- | :--- |
-| **CI/CD Pipeline** | **High** | GitHub Actions | Automated Linting, Testing, and Deploy to Staging. |
+| **CI/CD Pipeline** | **High**  | Automated Linting, Testing, and Deploy to Staging. |
 | **Monitoring** | Medium | Prometheus/Grafana | Dashboards for Request Latency and Error Rates. |
 | **K8s Manifests** | Low | Kubernetes | Helm charts for enterprise deployment. |
 

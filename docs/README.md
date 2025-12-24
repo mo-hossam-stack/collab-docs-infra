@@ -1,4 +1,4 @@
-# Google Docs Clone with Django & Next.js
+# Collaborative document editor with Django & Next.js
 
 ## Project Overview
 This project is a high-performance, real-time collaborative document editing platform designed to mimic the core functionality of Google Docs. It leverages a hybrid architecture with a robust Django backend for data integrity and complex business logic, paired with a Next.js frontend for a highly interactive, SEO-friendly user experience.
@@ -18,9 +18,9 @@ The system follows a headless architecture pattern:
 - **AI Integration**: Custom AI module (`ai` app) for text enhancement features.
 
 ### Frontend
-- **Framework**: Next.js 15+ (React 19)
+- **Framework**: Next.js 15+
 - **Styling**: TailwindCSS
-- **Language**: TypeScript/JavaScript
+- **Language**: JavaScript
 
 ### Infrastructure
 - **Containerization**: Docker, Docker Compose
@@ -49,13 +49,11 @@ The system follows a headless architecture pattern:
 ## Current Service Status
 | Component | Status | Notes |
 | :--- | :--- | :--- |
-| **User Authentication** | ✅ Implemented | Registration, Login using `accounts` app. |
-| **Document Management** | ✅ Implemented | CRUD operations in `documents` app. |
-| **Profiles** | ✅ Implemented | User profile management. |
+| **User Authentication** | not Implemented | Registration, Login using `accounts` app. |
+| **Document Management** | not Implemented | CRUD operations in `documents` app. |
+| **Profiles** | not Implemented | User profile management. |
 | **AI Features** | 🚧 In Progress | Integration logic exists in `ai` app. |
-| **Real-time Collab** | 📅 Planned | WebSocket/Channels integration pending. |
-| **Infrastructure** | ✅ Stable | Docker Compose & Railway config ready. |
+| **Real-time Collab** |  not Implemented | WebSocket/Channels integration pending. |
+| **Infrastructure** | not Implemented | Docker Compose & Railway config ready. |
 
 ---
-**Note for APT Packaging**:
-When packaging this documentation via `apt install my-docs`, this file will be located at `/usr/share/doc/my-project/README.md`.

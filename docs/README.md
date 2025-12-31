@@ -1,3 +1,4 @@
+# This project is temporarily on hold due to final exams. Development will resume after the exams are completed.
 # Collaborative document editor with Django & Next.js
 
 ## Project Overview

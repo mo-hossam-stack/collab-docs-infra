@@ -58,3 +58,4 @@ The system follows a headless architecture pattern:
 | **Infrastructure** | not Implemented | Docker Compose & Railway config ready. |
 
 ---
+last updated: 2026-01-26
